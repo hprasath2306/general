@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'todovercel.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER' : 'postgres',
         'PASSWORD' : 'f334ec35acaACf63gAdB5deAEEefdabF',
